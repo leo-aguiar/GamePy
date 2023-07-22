@@ -1,3 +1,13 @@
+"""
+Nesta aplicação, ao ser inicializada, o usuário é solicitado a escolher o nível de dificuldade do jogo.
+
+Em seguida, cálculos aleatórios de adição, subtração e multiplicação são gerados e apresentados, desafiando o jogador
+a informar o resultado correto. As operações ficarão limitadas a essas três possibilidades.
+
+A cada resposta correta, o jogador acumula 1 ponto em seu score. Independente de acertar ou errar, ele terá a opção
+de continuar o jogo.
+"""
+
 from models.calcular import Calcular
 
 def main() -> None:
